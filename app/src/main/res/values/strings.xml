@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Details</string>
+    <string name="textview">TextView</string>
+    <string name="contacts_app">Contacts App</string>
+    <string name="todo">TODO</string>
+    <string name="create_contact">Create contact</string>
+    <string name="please_enter_your_phone_number">Please enter your phone number</string>
+    <string name="please_enter_your_number">Please enter your number</string>
+    <string name="please_enter_a_web_address">Please enter a web address</string>
+    <string name="please_enter_a_map_location">Please enter a map location</string>
+</resources>

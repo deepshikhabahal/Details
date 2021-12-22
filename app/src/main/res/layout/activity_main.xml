@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/tVContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/amber_light"
+        android:gravity="center_horizontal"
+        android:text="@string/contacts_app"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <ImageView
+        android:id="@+id/imgFace"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/happy"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:visibility="visible"
+        android:contentDescription="@string/todo"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/tVName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/textview" />
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/call"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imgWeb"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_web_24"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imgLocation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/location"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/create_contact" />
+
+</LinearLayout>
